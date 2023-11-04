@@ -1,4 +1,4 @@
-# Reaction Time Benchmark
+# Reaction Time Benchmark ✏️
 
 This is a Python program designed to measure reaction time by allowing the computer to react to a change in the color green on the screen. The goal is to simulate a fast reaction, similar to that of a person with keen reflexes or a high refresh rate monitor.
 
