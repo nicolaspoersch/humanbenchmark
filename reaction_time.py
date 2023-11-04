@@ -4,11 +4,9 @@ import random
 import keyboard
 import winsound
 
-# Cor que você deseja detectar (RGB)
 target_color = (75, 219, 106)
 active = True
 
-# Função para ativar/desativar o programa
 def toggle_program():
     global active
     active = not active
@@ -19,10 +17,8 @@ def toggle_program():
         print("Programa desativado. Use 'Ctrl+Alt+P' para ativar.")
         winsound.Beep(500, 200)
 
-# Registra a tecla de atalho 'Ctrl+Alt+P' para ativar/desativar o programa
 keyboard.add_hotkey('ctrl+alt+p', toggle_program)
 
-# Banner informativo personalizado
 banner = """
 *************************************************
 *                                              *
