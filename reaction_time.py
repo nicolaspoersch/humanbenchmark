@@ -11,7 +11,7 @@ def toggle_program():
     global active
     active = not active
     if active:
-        print("Programa ativado. Use 'Ctrl+Alt+P' para desativar.")
+        print("Program activated. Use 'Ctrl+Alt+P' to disable.")
         winsound.Beep(1000, 200)
     else:
         print("Programa desativado. Use 'Ctrl+Alt+P' para ativar.")
