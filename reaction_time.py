@@ -20,16 +20,19 @@ def toggle_program():
 keyboard.add_hotkey('ctrl+alt+p', toggle_program)
 
 banner = """
-*************************************************
-*                                              *
-*  Programa para Reaction Time do Benchmark    *
-*                                              *
-*  Autor: @nicolaspoersch (GitHub)             *
-*                                              *
-*  Programa ativado. Use 'Ctrl+Alt+P' para     *
-*  desativar.                                  *
-*                                              *
-*************************************************
+ █████   █████ ███████████   █████████  ███████████  
+░░███   ░░███ ░░███░░░░░███ ███░░░░░███░░███░░░░░███ 
+ ░███    ░███  ░███    ░███░███    ░░░  ░███    ░███ 
+ ░███████████  ░██████████ ░░█████████  ░██████████  
+ ░███░░░░░███  ░███░░░░░███ ░░░░░░░░███ ░███░░░░░███ 
+ ░███    ░███  ░███    ░███ ███    ░███ ░███    ░███ 
+ █████   █████ ███████████ ░░█████████  █████   █████
+░░░░░   ░░░░░ ░░░░░░░░░░░   ░░░░░░░░░  ░░░░░   ░░░░░ 
+
+Program activated. Use 'Ctrl+Alt+P' to deactivate.
+
+Script for the Human Benchmark Reaction Time
+by @nicolaspoersch (GitHub)
 """
 
 print(banner)
