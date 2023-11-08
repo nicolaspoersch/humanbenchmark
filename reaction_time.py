@@ -14,7 +14,7 @@ def toggle_program():
         print("Program activated. Use 'Ctrl+Alt+P' to disable.")
         winsound.Beep(1000, 200)
     else:
-        print("Programa desativado. Use 'Ctrl+Alt+P' para ativar.")
+        print("Program deactivated. Use 'Ctrl+Alt+P' to activate.")
         winsound.Beep(500, 200)
 
 keyboard.add_hotkey('ctrl+alt+p', toggle_program)
